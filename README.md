@@ -54,8 +54,8 @@ mediante claves foráneas.
 Antes de realizar el análisis se realizó una revisión de la calidad
 de los datos.
 
-Se identificaron valores NULL en la columna `precio_unitario` de algunos
-pedidos.
+Para demostrar el tratamiento de datos faltantes, se simularon algunos valores
+NULL en la columna `precio_unitario` de pedidos.
 
 Para resolver estos casos se utilizó la función `COALESCE()`, tomando
 como valor alternativo el precio registrado en la tabla `productos`.
